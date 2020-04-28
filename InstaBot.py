@@ -13,9 +13,9 @@ passwd = driver.find_element_by_name('password')
 print(username)
 
 #username.clear()
-username.send_keys('syotos46@gmail.com')
+username.send_keys('') # enter your login
 #passwd.clear()
-passwd.send_keys('ingdirect')
+passwd.send_keys('') # enter your login
 
 driver.find_element_by_xpath('//*[@id="react-root"]/section/main/div/article/div/div[1]/div/form/div[4]/button').click()
 
