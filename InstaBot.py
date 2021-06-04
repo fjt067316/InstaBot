@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-driver = webdriver.Chrome(r"C:\Users\Josh\PycharmProjects\WebScraper\chromedriver.exe")
+driver = webdriver.Chrome(r"C:\Users\____\PycharmProjects\WebScraper\chromedriver.exe")
 
 driver.get('https://instagram.com/accounts/login/')
 #insta needs time to import forms after loading webpage bc they don't hard code it in
